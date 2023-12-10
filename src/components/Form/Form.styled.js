@@ -9,6 +9,12 @@ export const StyledForm = styled.form`
 export const StyledInput = styled.input`
   border: 1px solid lightgray;
   margin-bottom: 20px;
+
+  &:focus {
+    border: 4px solid rgb(65, 87, 233, 0.5);
+    border-radius: 5px;
+    outline: none;
+  }
 `;
 
 export const StyledButton = styled.button`
